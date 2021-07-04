@@ -13,7 +13,6 @@ class Body extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: <Widget>[
-        SizedBox(height: 50),
         Container(
           padding: EdgeInsets.all(10.0),
           child: Image.asset('assets/images/onBoarding3.png'),
@@ -25,7 +24,7 @@ class Body extends StatelessWidget {
           style: TextStyle(
             fontWeight: FontWeight.bold,
             color: Colors.green,
-            fontSize: 24,
+            fontSize: 20,
           ),
         ),
         SizedBox(height: 5),
@@ -35,13 +34,13 @@ class Body extends StatelessWidget {
           style: TextStyle(
             fontWeight: FontWeight.bold,
             color: Colors.green,
-            fontSize: 24,
+            fontSize: 20,
           ),
         ),
 
         SizedBox(height: 15),
         LoginButton(
-          text: '     Donor     ',
+          text: 'Donor',
           press: () {
             Navigator.push(
               context,
@@ -53,9 +52,14 @@ class Body extends StatelessWidget {
             );
           },
         ),
-        SizedBox(height: 25),
+        SizedBox(height: 15),
         LoginButton(
           text: 'Beneficiary',
+          press: () {},
+        ),
+        SizedBox(height: 15),
+        LoginButton(
+          text: 'Anonymous',
           press: () {},
         ),
 

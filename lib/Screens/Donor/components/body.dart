@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:fund_me_zuri/Screens/Donor/components/background.dart';
+import 'package:fund_me_zuri/Screens/Home/home_screen.dart';
 import 'package:fund_me_zuri/Screens/Onboarding1/onboarding1_screen.dart';
+import 'package:fund_me_zuri/Screens/SignupDonor/signupdonor_screen.dart';
 import 'package:fund_me_zuri/components/login_button.dart';
 
 class Body extends StatelessWidget {
@@ -40,7 +42,7 @@ class Body extends StatelessWidget {
               context,
               MaterialPageRoute(
                 builder: (context) {
-                  return Onboarding1Screen();
+                  return HomeScreen();
                 },
               ),
             );
@@ -55,7 +57,7 @@ class Body extends StatelessWidget {
               context,
               MaterialPageRoute(
                 builder: (context) {
-                  return Onboarding1Screen();
+                  return SignupDonorScreen();
                 },
               ),
             );

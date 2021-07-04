@@ -18,9 +18,10 @@ class LoginButton extends StatelessWidget {
         style: ElevatedButton.styleFrom(
             primary: kPrimaryColor,
             alignment: Alignment.center,
-            padding: EdgeInsets.only(left:100,right: 100,bottom: 10,top:10),
+            minimumSize: Size(350.0, 50),
+            padding: EdgeInsets.only(left:50,right: 50,bottom: 5,top:5),
             textStyle: TextStyle(
-                fontSize: 30,
+                fontSize: 24,
                 fontWeight: FontWeight.bold)),
       ),
     );
