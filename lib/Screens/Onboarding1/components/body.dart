@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:fund_me_zuri/Screens/Onboarding2/onboarding2_screen.dart';
 import 'package:fund_me_zuri/components/skip_button.dart';
+import 'package:fund_me_zuri/constants.dart';
 
 class Body extends StatelessWidget {
   const Body({
@@ -11,45 +12,35 @@ class Body extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: <Widget>[
-        SizedBox(height: 50),
-        Container(
-          padding: EdgeInsets.all(10.0),
-          child: Image.asset('assets/images/onBoarding2.png'),
-        ),
-        SizedBox(height: 30),
+        SizedBox(height: 100),
         Text(
-          'Make donation requests',
+          'Make a donation request',
           textDirection: TextDirection.ltr,
           style: TextStyle(
             fontWeight: FontWeight.bold,
-            color: Colors.green,
+            color: kPrimaryColor,
             fontSize: 24,
-          ),
-        ),
-        SizedBox(height: 30),
-        Text(
-          'Fundraise for a donation cause',
-          textDirection: TextDirection.ltr,
-          style: TextStyle(
-            fontWeight: FontWeight.w700,
-            color: Colors.green,
-            fontSize: 18,
-            letterSpacing: -1.5,
           ),
         ),
         SizedBox(height: 15),
         Text(
-          ' cause ',
+          'Fundraise for a donation cause',
           textDirection: TextDirection.ltr,
           style: TextStyle(
-            fontWeight: FontWeight.w600,
-            color: Colors.green,
+            fontWeight: FontWeight.w400,
+            color: kPrimaryColor,
             fontSize: 18,
             letterSpacing: -1.5,
           ),
-
         ),
         SizedBox(height: 100),
+        Container(
+          child: Image.asset('assets/images/onboarding2.png'),
+        ),
+        SizedBox(height: 150),
+        Container(
+          child: Image.asset('assets/images/progressBar2.png'),
+        ),
         SkipButton(
           press: () {
             Navigator.push(
