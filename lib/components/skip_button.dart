@@ -14,7 +14,7 @@ class SkipButton extends StatelessWidget {
     Size size = MediaQuery.of(context).size;
     return Container(
       child: Align(
-        alignment: FractionalOffset.bottomRight,
+        alignment: FractionalOffset.center,
         child: TextButton(
           style: TextButton.styleFrom(
             textStyle: const TextStyle(fontSize: 20),

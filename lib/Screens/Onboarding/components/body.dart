@@ -19,10 +19,7 @@ class Body extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
-            Container(
-              child: Image.asset('assets/images/onBoarding1.png'),
-            ),
-            SizedBox(height: 30),
+            SizedBox(height: 100),
             Text(
               'Find a child to sponsor',
               textDirection: TextDirection.ltr,
@@ -32,29 +29,25 @@ class Body extends StatelessWidget {
                 fontSize: 24,
               ),
             ),
-            SizedBox(height: 30),
-            Text(
-              'Find and select a child',
-              textDirection: TextDirection.ltr,
-              style: TextStyle(
-                  fontWeight: FontWeight.w700,
-                  color: Colors.green,
-                  fontSize: 18,
-                letterSpacing: -1.5,
-              ),
-            ),
             SizedBox(height: 15),
             Text(
-              ' to sponsor ',
+              'Find and select a child to sponsor',
               textDirection: TextDirection.ltr,
               style: TextStyle(
-                  fontWeight: FontWeight.w600,
-                  color: Colors.green,
-                  fontSize: 18,
+                fontWeight: FontWeight.w400,
+                color: Colors.green,
+                fontSize: 18,
                 letterSpacing: -1.5,
               ),
             ),
+            SizedBox(height: 100),
+            Container(
+              child: Image.asset('assets/images/onboarding1.png'),
+            ),
             SizedBox(height: 150),
+            Container(
+              child: Image.asset('assets/images/progressBar1.png'),
+            ),
             SkipButton(
               press: () {
                 Navigator.push(

@@ -134,7 +134,8 @@ class Body extends StatelessWidget {
                     "Sign in with Facebook",
                     style: TextStyle(
                         color: Colors.black87, fontWeight: FontWeight.bold),
-                  )),
+                  ),
+              ),
             ],
           ),
         ),
