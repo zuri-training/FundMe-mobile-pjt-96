@@ -44,6 +44,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "dio",
+      "rootUri": "file:///Users/cedriccampbell/Desktop/zuriTraining/ifeWoleOsho/flutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/dio-4.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "fake_async",
       "rootUri": "file:///Users/cedriccampbell/Desktop/zuriTraining/ifeWoleOsho/flutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/fake_async-1.2.0",
       "packageUri": "lib/",
@@ -64,6 +70,30 @@
     {
       "name": "flutter_test",
       "rootUri": "file:///Users/cedriccampbell/Desktop/zuriTraining/ifeWoleOsho/flutterDev/flutter/packages/flutter_test",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_web_plugins",
+      "rootUri": "file:///Users/cedriccampbell/Desktop/zuriTraining/ifeWoleOsho/flutterDev/flutter/packages/flutter_web_plugins",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "fluttertoast",
+      "rootUri": "file:///Users/cedriccampbell/Desktop/zuriTraining/ifeWoleOsho/flutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/fluttertoast-8.0.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "http_parser",
+      "rootUri": "file:///Users/cedriccampbell/Desktop/zuriTraining/ifeWoleOsho/flutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/http_parser-4.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "js",
+      "rootUri": "file:///Users/cedriccampbell/Desktop/zuriTraining/ifeWoleOsho/flutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/js-0.6.3",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -170,7 +200,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2021-07-04T18:51:25.345624Z",
+  "generated": "2021-07-15T02:03:57.275514Z",
   "generator": "pub",
   "generatorVersion": "2.12.3"
 }

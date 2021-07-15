@@ -18,7 +18,7 @@ class Body extends StatelessWidget {
           Container(
             child: Image.asset('assets/images/fundMeLogo.png'),
           ),
-          SizedBox(height: 250),
+          SizedBox(height: 150),
           LoginButton(
             text: 'Login in as donor',
             press: (){
