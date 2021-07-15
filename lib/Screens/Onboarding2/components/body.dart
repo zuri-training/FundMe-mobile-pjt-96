@@ -20,7 +20,7 @@ class Body extends StatelessWidget {
           textDirection: TextDirection.ltr,
           style: TextStyle(
             fontWeight: FontWeight.bold,
-            color: Colors.green,
+            color: kPrimaryColor,
             fontSize: 24,
           ),
         ),
@@ -30,7 +30,7 @@ class Body extends StatelessWidget {
           textDirection: TextDirection.ltr,
           style: TextStyle(
             fontWeight: FontWeight.w400,
-            color: Colors.green,
+            color: kPrimaryColor,
             fontSize: 18,
             letterSpacing: -1.5,
           ),
