@@ -3,7 +3,7 @@
   "packages": [
     {
       "name": "async",
-      "rootUri": "file:///Users/cedriccampbell/Desktop/zuriTraining/ifeWoleOsho/flutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.5.0",
+      "rootUri": "file:///Users/cedriccampbell/Desktop/zuriTraining/ifeWoleOsho/flutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.6.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -141,7 +141,7 @@
     },
     {
       "name": "source_span",
-      "rootUri": "file:///Users/cedriccampbell/Desktop/zuriTraining/ifeWoleOsho/flutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/source_span-1.8.0",
+      "rootUri": "file:///Users/cedriccampbell/Desktop/zuriTraining/ifeWoleOsho/flutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/source_span-1.8.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -171,7 +171,7 @@
     },
     {
       "name": "test_api",
-      "rootUri": "file:///Users/cedriccampbell/Desktop/zuriTraining/ifeWoleOsho/flutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/test_api-0.2.19",
+      "rootUri": "file:///Users/cedriccampbell/Desktop/zuriTraining/ifeWoleOsho/flutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/test_api-0.3.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -200,7 +200,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2021-07-15T02:03:57.275514Z",
+  "generated": "2021-07-15T11:41:01.947675Z",
   "generator": "pub",
-  "generatorVersion": "2.12.3"
+  "generatorVersion": "2.13.4"
 }
